@@ -1,0 +1,4 @@
+https://pypi.org/
+pip install twine
+python setup.py sdist build
+twine upload dist/*
